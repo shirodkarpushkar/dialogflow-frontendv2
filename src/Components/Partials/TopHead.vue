@@ -4,7 +4,7 @@
         <img v-else class="app-icon" src="https://console.dialogflow.com/api-client/assets/img/logo-short.png" :alt="app.displayName">
         <div class="app-info">
             <div class="app-name">{{app.displayName}}</div>
-            <div class="app-poweredby">Built using <a target="_blank" rel="noopener noreferrer" href="https://dialogflow.com/docs" aria-hidden="true">Dialogflow</a></div>
+            <div class="app-poweredby">Built by <a target="_blank" rel="noopener noreferrer" href="https://www.winjit.com" aria-hidden="true">Winjit</a></div>
         </div>
         <slot />
     </header>
